@@ -1,0 +1,43 @@
+.post {
+  background-color: white;
+  border: 1px solid gray;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.post > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+}
+
+.post__avatar {
+  flex: 0 0 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.5rem;
+}
+
+.post__author {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.post__date {
+  font-size: 0.7rem;
+}
+
+.post__content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.post__content img {
+  width: 100%;
+}

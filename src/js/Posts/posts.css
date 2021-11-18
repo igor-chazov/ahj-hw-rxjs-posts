@@ -1,0 +1,31 @@
+.posts {
+  max-width: 800px;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.posts__control {
+  margin-bottom: 1rem;
+}
+
+.posts__btn-refresh {
+  border-radius: 10px;
+  background-color: #4679b7;
+  color: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: background-color 0.3s ease-out;
+}
+
+.posts__btn-refresh:hover {
+  background-color: #2e87f3;
+}
+
+.posts__btn-refresh:focus {
+  outline: 1px solid #2e87f3;
+  outline-offset: 2px;
+}
+
+.list-posts__item:not(:last-child) {
+  margin-bottom: 1rem;
+}
