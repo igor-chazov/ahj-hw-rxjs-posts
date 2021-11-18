@@ -1,6 +1,6 @@
 # RxJS
 
-[[Github Pages](https://igor-chazov.github.io/ahj-hw-rxjs-posts)]
+[![Build status](https://ci.appveyor.com/api/projects/status/6q48yasdvob3pbxd?svg=true)](https://ci.appveyor.com/project/igor-chazov/ahj-hw-rxjs-posts) [[Github Pages](https://igor-chazov.github.io/ahj-hw-rxjs-posts)]
 
 ---
 
